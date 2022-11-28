@@ -1,6 +1,7 @@
 public class Biography {
     public static void main(String[] args) {
 
+
         /**
          * WORK ON BOOK AND AUTHOR CLASSES FIRST
         This will be our actual program that we define author and his books
@@ -33,5 +34,20 @@ public class Biography {
 
         //YOUR CODE HERE
 
+        Author author = Author.createAuthor();
+        System.out.println(author);
+        System.out.println("Author's books are as listed below:");
+        author.listOfBooks.forEach(System.out::println);
+
+
+
+
+
+
+
+
     }
+
+
+
 }
